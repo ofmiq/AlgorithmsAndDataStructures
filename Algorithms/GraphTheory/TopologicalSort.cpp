@@ -4,7 +4,6 @@
 #include <vector>
 
 enum COLOURS { BLACK, GRAY, WHITE };
-const int INF = INT_MAX;
 
 // DFS for matrix
 bool TopSortDFS_matrix(const std::vector<std::vector<int>>& G, int v,

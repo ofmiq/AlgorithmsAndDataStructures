@@ -3,7 +3,6 @@
 #include <vector>
 
 enum COLOURS { WHITE, GRAY, BLACK };
-const int INF = INT_MAX;
 
 std::pair<bool, std::vector<int>> IsCyclic_matrix(
     const std::vector<std::vector<int>>& G, int v, int parent,

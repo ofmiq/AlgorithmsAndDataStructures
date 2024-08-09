@@ -3,7 +3,6 @@
 #include <vector>
 
 enum COLOURS { WHITE, GRAY, BLACK };
-const int INF = INT_MAX;
 
 std::pair<int, std::vector<int>> DFS_matrix(
     const std::vector<std::vector<int>>& G, int v,
